@@ -1,0 +1,27 @@
+@import url(/assets/css/reset.css);
+
+.main-container {
+    box-sizing: border-box;
+}
+
+.main-container .section-1 {
+    box-sizing: border-box;
+    position: relative;
+}
+
+.main-container .section-1 .bk {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.main-container .section-1 .pr-2 {
+    border: 8px solid red;
+    max-width: 100%;
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 20px; /* Ajuste conforme necessário */
+    left: 20px; /* Ajuste conforme necessário */
+}
